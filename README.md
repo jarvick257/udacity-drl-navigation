@@ -1,6 +1,4 @@
-[//]: # (Image References)
-
-[image1]: https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif "Trained Agent"
+![Trained Agent](https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif)
 
 # Project 1: Navigation
 This is my solution to the Project 1 - Navigation of Udacity's Deep Reinforcement Learning nanodegree.
@@ -19,4 +17,5 @@ The setup for this repo is identical to https://github.com/udacity/deep-reinforc
 ### Artifacts
 Training an agent will create a folder with name `models/BananaBrain_[num_games]_[learning_rate]` in which a visualization of the training progress will be stored together with the best performing network weights `q_target` and `q_online`.
 
+![progress](https://raw.githubusercontent.com/jarvick257/udacity-drl-navigation/develop/models/BananaBrain_500_0.001/progress.png)
 
