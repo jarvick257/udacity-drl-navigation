@@ -28,3 +28,6 @@ Other hyperparameters:
 ### test.py
 This script demonstrates how well a trained agent is performing. It takes the folder in which trained networks are stored as a parameter (eg.: `python test.py ./models/BananaBrain_500_0.001`) and runs one episode at normal speed. At the end, the final score is printed.
 
+
+## Potential Improvements
+This project implements only one extension over vanilla DQNs - Double DQNs. As research has shown, adding the other improvements _does_ increase performance so adding Prioritized experience replay, Dueling DQN and/or other enhancements will probably help albeit add complexity to the implementation.
