@@ -13,6 +13,12 @@ The setup for this repo is identical to https://github.com/udacity/deep-reinforc
 ### Implementation
 See the [report](REPORT.md) for a detailed description of the implementation and design choices.
 
+### Training
+To train the model simply run `python train.py`. See [report](REPORT.md) for more information.
+
+### Testing
+To test a trained agent, run `python test.py <path_to_trained_weights>`. See [report](REPORT.md) for more information.
+
 ### Artifacts
 Training an agent will create a folder with name `models/BananaBrain_[num_games]_[learning_rate]` in which a visualization of the training progress will be stored together with the best performing network weights `q_target` and `q_online`.
 
