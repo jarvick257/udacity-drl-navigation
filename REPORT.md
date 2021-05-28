@@ -9,7 +9,7 @@ The agent also takes care of epsilon decay for epsilon-greedy exploration so tha
 Implementation of a simple replay buffer without prioritization. This is a circular buffer with a specifiable size.
 
 ### model.py
-This file defines the neural net to be used for the q-networks. As the problem at hand is rather simple, so is the network with only one hidden layer.
+This file defines the neural net to be used for the q-networks. As the problem at hand is rather simple, so is the network, which has only a single hidden layer with 25 neurons. ReLu is used as activation function.
 
 ### utils.py
 Helper functions are defined here. So far there is only one for plotting the training progress.
