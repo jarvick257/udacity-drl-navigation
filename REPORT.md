@@ -30,6 +30,7 @@ This script demonstrates how well a trained agent is performing. It takes the fo
 
 ## Performance
 The following picture shows the agent's training progress over 500 games (score averaged over the last 100 games). The goal of 13+ was reached after around 250 episodes.
+
 ![progress](https://raw.githubusercontent.com/jarvick257/udacity-drl-navigation/develop/models/BananaBrain_500_0.001/progress.png)
 
 ## Potential Improvements
